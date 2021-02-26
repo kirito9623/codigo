@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <form action="">
+    <form action="" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
 
         <div>
             <input type="text" id="nombre" name="nombre" value="input tipo texto""> 
@@ -21,7 +21,6 @@
         </div>
 
         <div>
-
             <div>
                 <h4>Tipo de Mascota Favorita</h4>
             </div>
@@ -54,9 +53,25 @@
 
             <div>
                 <input type="checkbox" id="Soya" name="Soya" value="Soya">
-                <label for="Soya">Soya</label>
+                <label for="Soya">Soya</label><br><br>
             </div>
 
+        </div>
+
+        <div>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollo Front End</textarea>
+            <button type="button" onlcick="alert('Hola Companeros de Codigo')" >Hazme click dude!!!</button>
+        </div> <br><br>
+
+        <div>
+            <div>
+                0
+                <input type="range" id="a" name="a" value="50">
+                100
+                <input type="number" id="b" name="b" value="50">
+                =
+                <output name="x" for="a b"></output>
+            </div>
         </div>
 
 
