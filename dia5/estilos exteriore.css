@@ -30,6 +30,7 @@ figure {
 }
 
 
-footer { 
+#pie { 
     text-align: center;
+    background-color: coral;
 }
