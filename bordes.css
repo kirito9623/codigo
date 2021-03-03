@@ -1,0 +1,47 @@
+h1{
+
+    border-top: black 5px double;
+    border-right: green 10px dashed;
+    border-bottom: blue 10px dashed;
+    border-left: red 5px dotted;
+}
+
+
+#txt1{
+
+border-style: inset;
+
+}
+
+
+#txt2{
+
+    border-style: double;
+    
+    }
+
+
+#txt3{
+
+     border-style: solid;
+        
+    }
+        
+#txt4{
+    border-top: black 5px dotted;
+    border-right: green 10px double;
+    border-bottom: blue 10px dotted;
+    border-left: red 5px double;
+           
+       }
+
+input {
+
+    border: none;
+    background-color: blue;
+}
+
+h1{
+    border-style: ;
+}
+
