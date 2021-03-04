@@ -1,0 +1,60 @@
+body{
+   
+    background-image: linear-gradient(to bottom right, purple,orange);
+    display:flex;
+    text-align: center;
+}
+
+
+#img{
+
+    filter: grayscale(90%);
+    text-align: center;
+    transform: rotate(180deg);
+    
+}
+
+
+#img2{
+
+    filter: grayscale(90%);
+    text-align: center;
+    
+    
+}
+
+#girar{
+
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transform: rotate(180deg);
+}
+
+#torcer{
+
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transform: skewY(45deg);
+}
+}
+
+
+#crecer{
+
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transform: scale(1.9);
+}
+
