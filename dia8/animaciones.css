@@ -12,12 +12,16 @@ body {
         background-color: blue;
     }
     100% {
-        background-color: greenyellow;
+        background-image: url("roberto.jpg");
+        
     }
 
 }
 
 
+#elemento{
+    text-align: center;
+}
 
 
 img{
@@ -37,10 +41,14 @@ img{
     15% {
         border-radius: 20%;
         transform: translateX(-30px);
+        
+        
+
     }
     30% {
         border-radius: 30%;
         transform: translateX(-45px);
+       
     }
     45% {
         border-radius: 45%;
