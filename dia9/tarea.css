@@ -1,0 +1,30 @@
+body{
+
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    border: 5px solid coral;
+    width: 700px;
+    height: 800px;
+
+}
+
+
+#box{
+
+    height: 300px;
+    width: 500px;
+    font-size: 25px;
+    margin-top: 60px;
+    border-top: black 10px dashed;
+    border-right: black 10px dashed;
+    border-bottom: black 10px dashed;
+    border-left: black 10px dashed;
+    background-image: linear-gradient(185deg, rgb(2,70,47),aquamarine);
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{font-family: 'Poppins';
+}
+
+body{
+
+    background-color: aqua;
+    text-align: center;
+    
+
+}
+
+
+#contenedor-principal{
+
+    background-color: white;
+    margin:auto;
+    width: 50%;
+    height: 100vh;
+    padding: 18px;
+    
+}  
+
+
+label{
+
+margin-right: 15px;
+
+}
+
+.pregunta{
+
+    margin-bottom:30px;
+
+}
+
+
+button{
+    margin-top: 100px;
+
+}
