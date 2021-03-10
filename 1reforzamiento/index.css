@@ -1,0 +1,43 @@
+
+.contenedor{
+
+    width: 1000px;
+    height: 500px;
+    border: 10px solid salmon;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+    
+   
+
+}
+
+
+#contenedor1 {
+
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    border: 5px solid brown;
+    margin:5px;
+}
+
+
+#contenedor2 {
+
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border: 5px solid yellow;
+    margin:5px;
+}
+
+#contenedor3 {
+
+    width: 80px;
+    height: 80px;
+    background-color: salmon;
+    border: 5px solid salmon;
+    margin:5px;
+}
